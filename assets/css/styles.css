@@ -6,7 +6,7 @@
  * Website: https://themes.3rdwavemedia.com/
 */
 body {
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: "Open Sans", arial, sans-serif;
   color: #494d55;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
@@ -39,7 +39,8 @@ a:focus {
   text-decoration: none;
 }
 
-.btn, a.btn {
+.btn,
+a.btn {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -49,17 +50,20 @@ a:focus {
   line-height: 1.5;
 }
 
-.btn .fa, a.btn .fa {
+.btn .fa,
+a.btn .fa {
   margin-right: 5px;
 }
 
-.btn:focus, a.btn:focus {
+.btn:focus,
+a.btn:focus {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-.btn-cta, a.btn-cta {
+.btn-cta,
+a.btn-cta {
   font-weight: bold;
   font-size: 16px;
   padding: 10px 30px;
@@ -71,7 +75,11 @@ a:focus {
   color: #fff;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.hover {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.hover {
   background: #3aa7aa;
   color: #fff;
   border: 1px solid #3aa7aa;
@@ -83,7 +91,11 @@ a:focus {
   color: #fff;
 }
 
-.btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active, .btn-inverse.hover {
+.btn-inverse:hover,
+.btn-inverse:focus,
+.btn-inverse:active,
+.btn-inverse.active,
+.btn-inverse.hover {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   border: 1px solid transparent;
@@ -344,7 +356,7 @@ a:focus {
 }
 
 .footer .fa-heart {
-  color: #EA5395;
+  color: #ea5395;
 }
 
 /* ======= Hero Section ======= */
@@ -364,13 +376,13 @@ a:focus {
 
 .hero-section .figure-holder {
   position: relative;
-  height: 560px;
+  height: 500px;
   width: 100%;
 }
 
 .hero-section .figure-holder .figure-image {
   position: absolute;
-  bottom: 0;
+  bottom: 10;
   right: 15px;
   z-index: 10;
 }
@@ -402,7 +414,7 @@ a:focus {
 }
 
 .hero-carousel .carousel-inner .item-3 {
-  background-image: url("../images/hero-3.jpg");
+  background-image: url("../images/salfo1.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -756,7 +768,7 @@ a:focus {
 }
 
 .pricing-wrapper .item-3 .item-inner {
-  background: #F8A13F;
+  background: #f8a13f;
 }
 
 .pricing-wrapper .item-heading {
@@ -906,7 +918,7 @@ a:focus {
 }
 
 .team-section .social a.linkedin {
-  background: #1E6FBA;
+  background: #1e6fba;
 }
 
 .team-section .social a.linkedin:hover {
@@ -922,7 +934,7 @@ a:focus {
 }
 
 .team-section .social a.dribbble {
-  background: #EC4D8B;
+  background: #ec4d8b;
 }
 
 .team-section .social a.dribbble:hover {
