@@ -362,7 +362,7 @@ a.btn-cta {
 /* ======= Hero Section ======= */
 .hero-section {
   min-height: 560px;
-  background: #494d55;
+  background: #e4a62b;
   position: relative;
 }
 
@@ -438,14 +438,14 @@ a.btn-cta {
 }
 .about {
   cursor: pointer;
-  background-color: #6b062d;
+  background-color: #e2c417f1;
   color: #ffffff;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 40px;
 }
 .about h1 {
-  padding: 10px 0;
-  margin-bottom: 20px;
+  padding: 30px 10;
+  margin-bottom: 60px;
 }
 .about h2 {
   opacity: 0.8;
@@ -460,15 +460,13 @@ a.btn-cta {
   font-size: 40px;
   color: #ffffff;
   opacity: 0.7;
-  background-color: #4c0822;
-  border: 2px solid #4c0822;
-
-  webkit-transition: all 0.5s ease;
-  moz-transition: all 0.5s ease;
-  os-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.about-item:hover span {
+  background-color: #3f1bdf;
+  border: 2px solid #211ed3;
+} -webkit-animation: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -os-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+ .about-item:hover span {
   opacity: 1;
   border: 2px solid #cc0039;
   font-size: 42px;
@@ -485,42 +483,35 @@ a.btn-cta {
   transform: scale(1.1, 1.1);
 }
 .about .lead {
-  color: #cc0039;
-  font-size: 14px;
-  font-weight: bold;
+  color: #111010;
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 /* ======= About Section ======= */
 .about-section {
-  padding-top: 90px;
-}
-
-.about-section .section-title {
-  margin: 0;
-  margin-bottom: 15px;
-  font-size: 36px;
-  font-weight: 300;
+  padding-top: 15px;
 }
 
 .about-section .intro {
   color: #a2a6af;
-  font-size: 16px;
+  font-size: 26px;
   max-width: 760px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 
 .about-section .items-wrapper {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .about-section .items-wrapper .figure-holder {
-  margin-bottom: 15px;
-  vertical-align: bottom;
+  margin-bottom: 30px;
+  vertical-align: super;
 }
 
 .about-section .items-wrapper .figure-image {
-  max-width: 220px;
+  max-width: 260px;
 }
 
 .about-section .items-wrapper .item-inner {
@@ -528,7 +519,7 @@ a.btn-cta {
 }
 
 .about-section .items-wrapper .item-title {
-  color: #40babd;
+  color: #98db3f4f;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
